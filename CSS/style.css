@@ -1,0 +1,67 @@
+/* Layout */
+
+div {
+  display: flex; /* crée un contexte flex pour ses enfants */
+  flex-direction: row; /* affichage horizontal (défaut) */
+  width: 60%;
+}
+div > * {
+	border: 4px solid #fff;
+}
+div > * + * {
+	margin-left: -1em;
+}
+p:nth-child(2) {
+	z-index: 2;
+}
+
+/* Decoration */
+
+body {
+	margin: 20px;
+	background: #fff;
+	font-family: "Century Gothic", helvetica, arial, sans-serif;
+	font-size: 1.1em;
+}
+div {
+  border-radius: 20px;
+  margin: 0 auto .5em; /* centré */
+  padding: .5em;
+  background: #ddd;
+}
+.result {
+	color: #456;
+	margin: 0 0 2em;
+	text-align: center;
+	font-size: 0.9rem;
+}
+div > * {
+	box-sizing: border-box;
+  margin-top: 0;
+	margin-bottom: 0;
+  padding: 10px;
+	border-radius: 14px;
+	color: #fff;
+  text-align: left;
+	background: olivedrab;
+	font-size: 1rem;
+}
+h1 {
+	margin: 1em 0 0;
+	color: #345;
+	text-align: center;
+  font-family: georgia, "trebuchet ms", arial, serif;
+}
+h2 {
+	margin: 1em 0 1em;
+	color: #345;
+	text-align: center;
+  font-family: georgia, "trebuchet ms", arial, serif;
+}
+h3 {
+	margin: 1em 0 .2em;
+	color: orangered;
+	text-align: center;
+  font-family: georgia, "trebuchet ms", arial, serif;
+}
+p {text-align: center;}
