@@ -37,13 +37,13 @@ div {
 }
 div > * {
 	box-sizing: border-box;
-  margin-top: 0;
-	margin-bottom: 0;
-  padding: 10px;
+  margin-top: 5;
+	margin-bottom: 5;
+  padding: 19px;
 	border-radius: 14px;
-	color: #fff;
+	color: #f1f321;
   text-align: left;
-	background: olivedrab;
+	background: #327b06;
 	font-size: 1rem;
 }
 h1 {
